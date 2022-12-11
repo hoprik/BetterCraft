@@ -26,6 +26,7 @@ import static com.hoprik.Bc.MOD_ID;
 public class Bc {
 
     // Directly reference a log4j logger.
+    public static boolean isShow = true;
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "bc";
 
